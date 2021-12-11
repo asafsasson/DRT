@@ -1,0 +1,37 @@
+﻿body {
+    background-image: url(wallpaper.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.container {
+    justify-content: center;
+}
+
+.fRow {
+    margin-top: 25%;
+}
+
+.textImg {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.inputText {
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    height: 100%;
+    padding: 10px;
+}
+
+.searchBtn {
+    position: absolute;
+    right: 25px;
+    top: 28%;
+    background: url(search.png);
+    width: 30px;
+    -webkit-transform: scaleX(-1);
+}
